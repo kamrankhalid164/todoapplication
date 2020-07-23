@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: black;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color:#fff  ;
+}
+h2{
+    color: #fff;
+}
+#main-div{
+    /* display: flex; */
+    justify-content: center;
+     align-items: center;
+     text-align: center ;
+}
+#main-field{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+.mainBtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    margin: 0.25rem;
+    /* padding: 0.5rem 1rem; */
+    font-size: 1.15rem;
+    background-color: lime;
+    cursor: pointer;
+}
+.mainBtn:hover{
+     background-color: black;
+     opacity: 0.7;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+li{
+    align-content: flex-start;
+    color: #fff;
+    width: 350px;
+    font-size: 1.4rem;
+    list-style-type: none;
+    padding: 1rem;
+}
+items{
+    display: inline-block !important;
+}
+
+.ulDelButton{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    background: none;
+    outline: none;
+    color: lime;
+    border: none;
+}
+.ulEditButton{
+    font-size: 1.4rem;
+    background: none;
+    outline: none;
+    color: red;
+    border: none;
+}
+
+@media only screen and (max-width: 570px){
+    #main-field{
+        width: 350px;
+    }
+.mainBtn{
+    height: 40px;
+    width: 120px;
+}
+li{
+    max-inline-size: 350px;
+}
+}
